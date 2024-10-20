@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+   char fname[30], lname[30], lasname[30];
+   printf("Enter a string");
+   scanf("%s %s %s", fname, lname, lasname);
+   printf("%s %s %s", fname, lname, lasname);
+
+    return 0;
+}
